@@ -23,7 +23,7 @@ export const MeatJournalPrivacyPolicy = () => (
             <LastUpdatedDate>Last Updated: 02/10/2018</LastUpdatedDate>
             <h2>Overview</h2>
             <p>
-                This Privacy Policy describes the information collected by Robert Cooper (’we’, 'our’, ‘us’) through the
+                This Privacy Policy describes the information collected by IVA.pm (’we’, 'our’, ‘us’) through the
                 Meat Journal application we use that information.
             </p>
             <h2>We Don’t Collect Your Data</h2>
@@ -33,7 +33,7 @@ export const MeatJournalPrivacyPolicy = () => (
             </p>
             <p>
                 If you have any questions or concerns regarding this Privacy Policy, please send us an email at{' '}
-                <Link to="mailto:robert@robertcooper.me">robert@robertcooper.me</Link>.
+                <Link to="mailto:info@sdgp.it">info@sdgp.it</Link>.
             </p>
         </PageContent>
     </Layout>
