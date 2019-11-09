@@ -271,12 +271,14 @@ export const Home = ({
             <Header>
                 <HeaderWrapper>
                     <HeadshotWrapper>
-                        <Headshot fluid={homeHeadshot.childImageSharp.fluid} alt="Robert Cooper's headshot" />
+                        <Headshot fluid={homeHeadshot.childImageSharp.fluid} alt="IVA per Piccole e Medie Imprese" />
                     </HeadshotWrapper>
                     <Intro>
                         <IntroDescription>
-                            Benvenuti <strong>IVA Piccole eMedie Imprese</strong>, a front-end web developer that builds web apps and
-                            writes articles on web development ✌🏻
+                            <strong>IVA per Piccole e Medie Imprese</strong>, 
+                        </IntroDescription>
+                        <IntroDescription>
+                            Apri e gestisci la Partita Iva online ✌🏻
                         </IntroDescription>
                         <SocialMediaGroup />
                     </Intro>
@@ -294,7 +296,7 @@ export const Home = ({
                     </Fade>
                     <BlogList posts={posts} />
                     <Fade bottom>
-                        <Button to="/blog">See all posts</Button>
+                        <Button to="/blog">Scopri di più</Button>
                     </Fade>
                 </RecentPosts>
                 <Fade>
@@ -302,7 +304,7 @@ export const Home = ({
                 </Fade>
                 <Section>
                     <Fade top>
-                        <StyledTitle as="h2">Recent Projects</StyledTitle>
+                        <StyledTitle as="h2">Ultimi Articoli</StyledTitle>
                     </Fade>
                     <Projects>
                         {projects.map(({ node: project }) => (
@@ -320,7 +322,7 @@ export const Home = ({
                         ))}
                     </Projects>
                     <Fade bottom>
-                        <Button to="/projects">See all projects</Button>
+                        <Button to="/projects">by SDG&P</Button>
                     </Fade>
                 </Section>
                 <Fade>
