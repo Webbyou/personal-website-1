@@ -211,11 +211,11 @@ const SocialMediaGroup = (): JSX.Element => {
     const iconFill = theme === 'light' ? colors.textTitleLight : colors.textTitleDark;
     const items = [
         {
-            link: 'https://github.com/robertcoopercode',
+            link: 'https://webbyou.com/',
             icon: <Github iconFill={iconFill} />,
         },
         {
-            link: 'https://twitter.com/RobertCooper_RC',
+            link: 'https://sdgp.it',
             icon: <Twitter iconFill={iconFill} />,
         },
     ];
@@ -275,7 +275,7 @@ export const Home = ({
                     </HeadshotWrapper>
                     <Intro>
                         <IntroDescription>
-                            I'm <strong>Robert Cooper</strong>, a front-end web developer that builds web apps and
+                            Benvenuti <strong>IVA Piccole eMedie Imprese</strong>, a front-end web developer that builds web apps and
                             writes articles on web development ✌🏻
                         </IntroDescription>
                         <SocialMediaGroup />
