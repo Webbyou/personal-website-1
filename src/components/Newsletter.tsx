@@ -52,19 +52,19 @@ const NewsletterDescription = styled.p`
 
 const Newsletter = () => {
     const handleSubmit = useCallback(() => {
-        window.open('https://tinyletter.com/robertcooper', 'popupwindow', 'scrollbars=yes,width=800,height=600');
+        window.open('https://tinyletter.com/ivapmi', 'popupwindow', 'scrollbars=yes,width=800,height=600');
         return true;
     }, []);
     return (
         <NewsletterForm
-            action="https://tinyletter.com/robertcooper"
+            action="https://tinyletter.com/ivapmi"
             method="post"
             target="popupwindow"
             onSubmit={handleSubmit}
         >
-            <NewsletterTitle as="h2">Join the Newsletter</NewsletterTitle>
+            <NewsletterTitle as="h2">Iscriviti alla Newsletter</NewsletterTitle>
             <NewsletterDescription>
-                Sign up to my newsletter to stay up to date with my latest articles and news.
+                Iscriviti alla newsletter per rimanere aggiornato con gli ultimi articoli e le notizie.
             </NewsletterDescription>
             <EmailWrapper>
                 <EmailInput type="text" name="email" id="newsletterEmail" placeholder="Email address" />
