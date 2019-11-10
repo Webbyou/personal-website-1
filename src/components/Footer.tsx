@@ -50,16 +50,13 @@ const FooterComponent = ({  }: FooterProps) => {
             <ModifiedPageWrapper>
                 <SocialMediaList>
                     <SocialMediaListItem>
-                        <SocialMediaLink to="https://github.com/robertcoopercode">Github</SocialMediaLink>
+                        <SocialMediaLink to="https://twitter.com/sdgp">Twitter</SocialMediaLink>
                     </SocialMediaListItem>
                     <SocialMediaListItem>
-                        <SocialMediaLink to="https://twitter.com/RobertCooper_RC">Twitter</SocialMediaLink>
+                        <SocialMediaLink to="mailto:info@sdgp.it">Email</SocialMediaLink>
                     </SocialMediaListItem>
                     <SocialMediaListItem>
-                        <SocialMediaLink to="mailto:robert@robertcooper.me">Email</SocialMediaLink>
-                    </SocialMediaListItem>
-                    <SocialMediaListItem>
-                        <SocialMediaLink to="https://www.robertcooper.me/rss.xml">RSS</SocialMediaLink>
+                        <SocialMediaLink to="https://sdgp.it">SDG&P</SocialMediaLink>
                     </SocialMediaListItem>
                 </SocialMediaList>
             </ModifiedPageWrapper>
