@@ -95,7 +95,7 @@ const ModifiedThemeSwitch: any = styled(ThemeSwitch)`
 `;
 
 // tslint:disable-next-line prettier
-const NAVIGATION = [{ to: '/blog/', label: 'blog' }, { to: '/projects/', label: 'projects' }];
+const NAVIGATION = [{ to: '/blog/', label: 'Blog' }, { to: '/projects/', label: 'Prezzi' }];
 
 const MenuTitleComponent = ({ location, children }: { location: WindowLocation; children: React.ReactNode }) => {
     if (location.pathname === '/') {
@@ -114,7 +114,7 @@ const MenuComponent = () => {
                 {({ location }) => (
                     <ModifiedPageWrapper>
                         <MenuTitleComponent location={location}>
-                            <NavLink to="/">Robert Cooper</NavLink>
+                            <NavLink to="/">IVA per Piccole e Medie Imprese</NavLink>
                         </MenuTitleComponent>
                         <Nav>
                             <NavList>
