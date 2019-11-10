@@ -292,7 +292,7 @@ export const Home = ({
             <StyledPageWrapper>
                 <RecentPosts>
                     <Fade top>
-                        <StyledTitle as="h2">Recent Posts</StyledTitle>
+                        <StyledTitle as="h2">Servizi Professionali</StyledTitle>
                     </Fade>
                     <BlogList posts={posts} />
                     <Fade bottom>
@@ -322,7 +322,7 @@ export const Home = ({
                         ))}
                     </Projects>
                     <Fade bottom>
-                        <Button to="/projects">by SDG&P</Button>
+                        <Button to="/projects">Prezzi</Button>
                     </Fade>
                 </Section>
                 <Fade>
