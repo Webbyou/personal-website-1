@@ -2,10 +2,12 @@
 module.exports = {
     pathPrefix: `/`,
     siteMetadata: {
-        siteUrl: `https://www.robertcooper.me`,
-        author: `Robert Cooper`,
-        title: `Robert Cooper`,
-        description: `The front end web development blog and project portfolio of Robert Cooper, a Canadian web developer based in Montreal 🇨🇦.`,
+        siteUrl: `https://www.iva.pm`,
+        author: `Dimitrios Grammenidis`,
+        title: `IVA per PMI`,
+        description: `Il servizio di commercialista online più utilizzato dagli italiani. - Leggi 
+tutti gli articoli del commercialista online. Subito per te una consulenza gratuita sul tuo business. 100% 
+Professionisti, Commercialisti, Revisori Legali, Consulenti del lavoro .`,
         imagePath: `/social-sharing.jpg`,
     },
     plugins: [
@@ -98,8 +100,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Front-end web developer`,
-                short_name: `Robert`,
+                name: `IVA per PMI`,
+                short_name: `IVA-PMI`,
                 start_url: `/`,
                 background_color: `#F9FCFF`,
                 theme_color: `#09203A`,
@@ -110,7 +112,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-feed-custom`,
             options: {
-                image_url: `https://www.robertcooper.me/social-sharing.jpg`,
+                image_url: `https://www.iva.pm/social-sharing.jpg`,
                 language: `en`,
                 feeds: [
                     {
@@ -159,7 +161,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: `UA-80196253-8`,
+                trackingId: `UA-136390465-2`,
             },
         },
         `gatsby-plugin-netlify`,
